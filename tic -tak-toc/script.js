@@ -62,7 +62,7 @@ const enableBoxes = () => {
 };
 
 const showWinner = (winner) => {
-    msg.innerText = `Congratulations, ${winner} wins! BItch`; 
+    msg.innerText = `Congratulations, ${winner} wins! `; 
     msgContainer.classList.remove("hide");
     gameOver = true;
     disableBoxes();
